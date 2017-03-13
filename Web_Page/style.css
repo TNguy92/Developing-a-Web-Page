@@ -1,0 +1,65 @@
+.visible 
+{
+	visibility: visible;
+}
+.hidden 
+{
+	visibility : hidden;
+}
+
+body{
+
+	background-color : lightblue;
+	display: inline-block;
+    margin: 0px auto;
+    text-align: center;	
+	border: solid black;
+}
+table
+{
+	style: width: 50%;
+	text-align: center;
+	margin: 0px auto;
+	display: inline-block;
+}
+
+span
+{
+   display:block;
+   width: 100px;
+   font-size: 20px;
+}
+html
+{
+	text-align: center;
+}
+input
+{
+	color:blue;
+	background-color:white;
+}
+
+button
+{
+	background-color:grey;
+	color:black;
+}
+.add
+{
+	font-weight: bold;
+	background-color:grey;
+	color:black;
+
+}
+.remove
+{
+	font-weight: bold;
+	background-color:grey;
+	color:red;
+}
+.sort
+{	 
+	 font-weight: bold;
+	 background-color:grey;
+	 color:blue;
+}

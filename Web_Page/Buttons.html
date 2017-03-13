@@ -1,0 +1,31 @@
+<!DOCTYPE>
+<html>
+<head>
+	<script type = "text/javascript" src = "functions.js"></script> 
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
+	<title>Web Page</title>
+</head>
+
+<body id = "Body">	
+<h1>Add Input Text Box</h1>
+	<table>
+		<th>#</th><th>Input</th><th>Length</th>
+		<tr id = "model" class = "visible">
+			<th>
+			<a id ="list">1</a>
+			</th>
+			<th>
+			<input id ="inputs" onkeyup="counting()"></input>  
+			</th>
+			<th>
+			<span id="count">0</span>
+			</th>
+		</tr>
+	</table>
+			<th>
+				<button value="Add text input" class = "add" onClick="addInput('model')">ADD</button>
+				<button value="Remove text input" class = "remove" onClick="removeInput()">REMOVE</button>
+				<button value="Sort text input" class = "sort" onClick="sortInput()">SORT</button>
+			</th>
+</body>
+</html>
